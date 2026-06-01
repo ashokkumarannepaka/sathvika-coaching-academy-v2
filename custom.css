@@ -1,0 +1,54 @@
+/* Slick Carousel Custom Styles */
+.slick-dots li button:before {
+  color: #3b82f6 !important;
+  font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #f97316 !important;
+  opacity: 1 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #3b82f6 !important;
+  font-size: 30px !important;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #3b82f6, #f97316);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #2563eb, #ea580c);
+}
+
+/* Glassmorphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(to right, #3b82f6, #f97316);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
