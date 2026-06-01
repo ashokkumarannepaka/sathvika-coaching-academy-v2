@@ -1,46 +1,18 @@
-import { Navbar } from "./components/Navbar";
-import { Hero } from "./components/Hero";
-import { QuickRegistration } from "./components/QuickRegistration";
-import { ScholarshipTest } from "./components/ScholarshipTest";
-import { Courses } from "./components/Courses";
-import { WhyChoose } from "./components/WhyChoose";
-import { TopResults } from "./components/TopResults";
-import { Testimonials } from "./components/Testimonials";
-import { AcademyAdvantages } from "./components/AcademyAdvantages";
-import { Branches } from "./components/Branches";
-import { Gallery } from "./components/Gallery";
-import { FAQ } from "./components/FAQ";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
-import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
-import { ScrollToTop } from "./components/ScrollToTop";
+import { Navbar } from "./Navbar";
+import { Hero } from "./Hero";
+import { QuickRegistration } from "./QuickRegistration";
+import { ScholarshipTest } from "./ScholarshipTest";
+import { Courses } from "./Courses";
+import { WhyChoose } from "./WhyChoose";
+import { TopResults } from "./TopResults";
+import { Testimonials } from "./Testimonials";
+import { AcademyAdvantages } from "./AcademyAdvantages";
+import { Branches } from "./Branches";
+import { Gallery } from "./Gallery";
+import { FAQ } from "./FAQ";
+import { Contact } from "./Contact";
+import { Footer } from "./Footer";
+import { FloatingWhatsApp } from "./FloatingWhatsApp";
+import { ScrollToTop } from "./ScrollToTop";
 import { useEffect } from "react";
-import "../styles/custom.css";
-
-export default function App() {
-  useEffect(() => {
-    // Smooth scroll behavior
-    document.documentElement.style.scrollBehavior = "smooth";
-  }, []);
-
-  return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <Hero />
-      <QuickRegistration />
-      <ScholarshipTest />
-      <Courses />
-      <WhyChoose />
-      <TopResults />
-      <Testimonials />
-      <AcademyAdvantages />
-      <Branches />
-      <Gallery />
-      <FAQ />
-      <Contact />
-      <Footer />
-      <FloatingWhatsApp />
-      <ScrollToTop />
-    </div>
-  );
-}
+import "./custom.css";
